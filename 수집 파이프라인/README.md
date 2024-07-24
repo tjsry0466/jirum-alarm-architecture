@@ -1,6 +1,6 @@
 # 지름알림 수집 파이프라인
 
-![collect-pipeline](../assets/collect-pipeline.png)
+![collect-pipeline](assets/collect-pipeline.png)
 
 - SQS, Kafka, worker를 활용해 상품 정보를 수집하는 파이프라인입니다.
 - 모든 수집은 URL을 포함한 SQS이벤트를 받아 처리합니다.
